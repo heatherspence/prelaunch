@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Prelaunch::Application.config.secret_token = '739fedf231c10fc99c2e1b0eb63d4add4e6ed412459fbbf61ef813108c2eee6a80f1f05bc3b14302f918f68d7f3b9ed2964c8e1c7aa1c47df1ae5f0367aa8f5e'
+Prelaunch::Application.config.secret_token = '98b774849ec9702a78f0ba2b10381a75089fb348fd1a0761a7e742f003ab3a0aa537321599fd733dc808468efc64418c3bd143172c1a2c355adff787fdc2d8d9'

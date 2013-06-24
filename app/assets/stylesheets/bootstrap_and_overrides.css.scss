@@ -1,3 +1,64 @@
 @import "bootstrap";
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
+
+.main  {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.btn-custom-lighten.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+.btn-custom-lighten {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #348274;
+  background-image: -moz-linear-gradient(top, #2e7367, #3d9788);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2e7367), to(#3d9788));
+  background-image: -webkit-linear-gradient(top, #2e7367, #3d9788);
+  background-image: -o-linear-gradient(top, #2e7367, #3d9788);
+  background-image: linear-gradient(to bottom, #2e7367, #3d9788);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2e7367', endColorstr='#ff3d9788', GradientType=0);
+  border-color: #3d9788 #3d9788 #276157;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #3d9788;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-custom-lighten:hover,
+.btn-custom-lighten:focus,
+.btn-custom-lighten:active,
+.btn-custom-lighten.active,
+.btn-custom-lighten.disabled,
+.btn-custom-lighten[disabled] {
+  color: #ffffff;
+  background-color: #3d9788;
+  *background-color: #358577;
+}
+.btn-custom-lighten:active,
+.btn-custom-lighten.active {
+  background-color: #2e7367 ;
+}
+
+
+.modal-body{
+background-color: #31879a;
+	
+}
+
+img
+{
+
+ -khtml-opacity:.50; 
+ -moz-opacity:.50; 
+ -ms-filter:"alpha(opacity=50)";
+  filter:alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  opacity:.50; 
+}
+

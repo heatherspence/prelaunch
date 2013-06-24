@@ -13,8 +13,9 @@
 */
 
 .content {
-  background-color: #eee;
-  background-image: image-url('fingers.png');
+  background-color: #256473  ;
+  background-image: image-url('clock-l.png');
+  background-repeat: no-repeat;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
@@ -23,8 +24,42 @@
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
+
 }
 
-body {
+.bid {
+	
+	color: white;
+}
+
+.rest {
+	
+	color: white ;
+}
+
+.reg {
+	color: white;
+}
+
+.title {
+font-family:"Arial Black", Gadget, sans-serif;
+color: white ;
 	
 }
+
+.modal {
+background-color: #256473  ;
+	
+}
+
+img
+{
+
+ -khtml-opacity:.50; 
+ -moz-opacity:.50; 
+ -ms-filter:"alpha(opacity=50)";
+  filter:alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  opacity:.50; 
+}
+

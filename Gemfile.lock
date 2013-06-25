@@ -247,6 +247,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   selenium-webdriver (~> 2.32.1)
   simple_form (>= 2.1.0)
+  sprockets
   sqlite3
   therubyracer (>= 0.11.3)
   thin (>= 1.5.0)

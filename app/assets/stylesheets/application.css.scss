@@ -14,7 +14,7 @@
 
 .content {
   background-color: #256473  ;
-  background-image: url('clock-l.png');
+  background-image: asset-url('clock-l.png', image);
   background-repeat: no-repeat;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */

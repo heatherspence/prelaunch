@@ -1,7 +1,11 @@
 Prelaunch::Application.routes.draw do
+
+  root to: "home#index"
   authenticated :user do
-    root :to => 'home#index'
+    root :to => "passthrough#index"
   end
+
+  
   devise_scope :user do
     root :to => "devise/registrations#new"
     match '/user/confirmation' => 'confirmations#update', :via => :put, :as => :update_user_confirmation

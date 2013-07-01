@@ -1,2 +1,4 @@
 <h3>Home</h3>
 <h2>Jeff, anything that needs to be here?  Any suggestions?</h2>
+<p><%= current_user.email %></p>
+<p><%= current_user.roles.first.name.titleize unless current_user.roles.first.nil? %></p>

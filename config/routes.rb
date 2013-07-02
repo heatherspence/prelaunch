@@ -1,6 +1,6 @@
 Prelaunch::Application.routes.draw do
 
-  root to: "home#index"
+  
   authenticated :user do
     root :to => "passthrough#index"
   end

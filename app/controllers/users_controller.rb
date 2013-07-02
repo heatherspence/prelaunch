@@ -10,8 +10,9 @@ class UsersController < ApplicationController
   
 
   def show
-    
+    #@user = User.find(:all, :conditions => { :id => current_user[:id] })
     @user = User.find(params[:id])
+
   end
 
   def update
